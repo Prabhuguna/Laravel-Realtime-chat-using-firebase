@@ -13,9 +13,12 @@
 <script>
 
   // Initialize Firebase
+    //$user means login users
     var user = {!! $user !!};
     console.log(user);
-
+    
+    //It's demo credentials if you want to new config check https://console.firebase.google.com 
+    
     var config = {
         apiKey: "AIzaSyCUp1xkrl0u7yxcJKj8avFvciBtbXRngwU",
         authDomain: "my-firebase-b7a0b.firebaseapp.com",
